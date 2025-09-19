@@ -9,5 +9,7 @@ greet();
      <HomeAbout />
      <HomeGallery />
      <!-- <HomePricing /> -->
+    <HomeTestimonials />
+    <HomeContact />
   </div>
 </template>
