@@ -187,7 +187,7 @@
 }
 
 .slide_indicators .indicator {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xls);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.7);
   position: relative;
@@ -197,6 +197,7 @@
 
 .slide_indicators .indicator.active {
   color: white;
+  font-size: var(--fs-2xl);
 }
 
 .slide_indicators .indicator.active::after {
