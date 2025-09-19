@@ -1,8 +1,8 @@
 .slide_container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh; /* full viewport height */
+  justify-content: center; /* center main content horizontally */
+  align-items: center; /* center vertically */
+  height: 100vh;
   padding: 40px;
   background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1950&q=80')
     no-repeat center center;
@@ -20,18 +20,30 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.679); /* black with 50% opacity */
+  background: rgba(0, 0, 0, 0.679);
   z-index: 1;
 }
 
-/* Put all content above overlay */
+/* Content above overlay */
 .slide_details,
 .direction_button {
   position: relative;
   z-index: 2;
 }
 
-/* Center slide details */
+/* New wrapper for details + navigation */
+.slide_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* spread across */
+  max-width: 1200px; /* limit width */
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Centered slide details */
 .slide_details {
   flex: 1;
   display: flex;
@@ -39,6 +51,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .slide_title {
@@ -46,23 +59,25 @@
   font-weight: 220;
   margin-bottom: 10px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .slide_subtitle {
   font-size: var(--fs-5xl);
   margin-bottom: 20px;
-  color: white
+  color: white;
+    margin-bottom: 30px;
 }
 
 .slide_details p {
   font-size: var(--fs-base);
   margin-bottom: 20px;
   text-transform: uppercase;
-  /* line-height: 40px; */
   letter-spacing: 10px;
+  font-weight: 600;
 }
 
-/* Buttons row: one left, one right */
+/* Buttons row */
 .buttons {
   width: 20%;
   display: flex;
@@ -81,6 +96,12 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
+.button1 button:hover {
+  background: var(--secondary-color);
+}
+
+/* Gradient border button */
 .button2 button {
   position: relative;
   padding: var(--button-padding);
@@ -100,7 +121,7 @@
   position: absolute;
   inset: 0;
   border-radius: 60px;
-  padding: 3px; /* border thickness */
+  padding: 3px;
   background: var(--gradient-color-primary);
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
@@ -115,28 +136,25 @@
   color: white;
 }
 
-
-
-.button1 button:hover {
-  background: var(--secondary-color);
-}
-
-/* Navigation arrows center vertically */
+/* Navigation buttons now left + right */
 .direction_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* full width */
   position: absolute;
   top: 50%;
-  right: 20px; /* place them at right side */
+  left: 0;
   transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  padding: 0 30px;
+  z-index: 2;
 }
 
 .next_btn,
 .prev_btn {
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 15px;
-  border-radius: 50px;
+  border-radius: 50%;
   cursor: pointer;
   text-align: center;
   transition: background 0.3s;
