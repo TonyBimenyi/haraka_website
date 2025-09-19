@@ -1,0 +1,95 @@
+.slide_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; /* full screen */
+  padding: 40px;
+  background: url('/images/slide-bg.jpg') no-repeat center center/cover;
+  position: relative;
+  color: white;
+}
+
+/* Center slide details */
+.slide_details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide_title {
+  font-size: var(--fs-3xl);
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.slide_subtitle {
+  font-size: var(--fs-lg);
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+.slide_details p {
+  font-size: var(--fs-base);
+  margin-bottom: 20px;
+}
+
+/* Buttons row: one left, one right */
+.buttons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.button1 button {
+  padding: 12px 25px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: var(--fs-sm);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button1 button:hover {
+  background: var(--secondary-color);
+}
+
+/* Navigation arrows center vertically */
+.direction_button {
+  position: absolute;
+  top: 50%;
+  right: 20px; /* place on the right side */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.next_btn,
+.prev_btn {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.next_btn:hover,
+.prev_btn:hover {
+  background: var(--primary-color);
+}
+
+.next_btn p,
+.prev_btn p {
+  margin: 0;
+  font-size: var(--fs-sm);
+  color: white;
+}

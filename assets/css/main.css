@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0 auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+  /* Colors */
+  --primary-color: #F83F00;
+  --secondary-color: #f0b73c;
+  --gradient-color-primary: linear-gradient(90deg, #F83F00 0%, #f0b73c 100%);
+  --gradient-color-secondary: linear-gradient(90deg, #f0b73c 0%, #F83F00 100%);
+  --text-color: #333;
+
+  /* Font sizes */
+  --fs-xs: 0.75rem;   /* 12px */
+  --fs-sm: 0.875rem;  /* 14px */
+  --fs-base: 1rem;    /* 16px */
+  --fs-lg: 1.25rem;   /* 20px */
+  --fs-xl: 1.5rem;    /* 24px */
+  --fs-2xl: 2rem;     /* 32px */
+  --fs-3xl: 2.5rem;   /* 40px */
+  --fs-4xl: 3rem;     /* 48px */
+}
