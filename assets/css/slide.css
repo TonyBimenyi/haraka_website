@@ -211,3 +211,43 @@
   background: var(--secondary-color); /* orange underline */
   border-radius: 3px;
 }
+
+/* Navigation buttons (left + right arrows) */
+.direction_button {
+  display: flex;
+  align-items: center;        /* center vertically */
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 0 30px;
+  z-index: 2;
+}
+
+.next_btn,
+.prev_btn {
+  background: rgba(105, 105, 105, 0.492);
+  padding: 10px 15px;
+  border-radius: 15px;          /* make buttons circular */
+  cursor: pointer;
+  display: flex;               /* ensure icons are centered */
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.next_btn:hover,
+.prev_btn:hover {
+  background: var(--primary-color);
+}
+
+.next_btn .iconify,
+.prev_btn .iconify {
+  font-size: 1.5rem;
+  vertical-align: middle;       /* align inside flex */
+  position: relative;
+  top: 1px;                     /* fine tune */
+  color: white;
+}
