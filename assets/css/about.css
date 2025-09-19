@@ -1,0 +1,145 @@
+.home-container {
+  /* max-width: 100; */
+  margin: 0 auto;
+  padding: 200px 400px;
+  font-family: 'Inter', sans-serif;
+  background-color: #F7F7F7;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+.left_part span{
+    font-weight: 300;
+}
+
+.tagline {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #999;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+}
+
+.tagline::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #F59E0B;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.mission-vision {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 20px 0 30px;
+}
+
+.section-title {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title::after {
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: #F59E0B;
+}
+
+.get-started-btn {
+  background: linear-gradient(90deg, #ef4444, #f59e0b);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.get-started-btn:hover {
+  transform: translateY(-3px);
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+  margin-bottom: 40px;
+}
+
+.feature-item {
+  flex: 1;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0);
+  text-align: center;
+  transition: all 0.3s ease;
+  /* border: 1px solid #eee; */
+}
+
+
+.feature-item.active {
+  background: var(--gradient-color-secondary);
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+  z-index: 1;
+}
+.feature-item.active .icon-wrapper {
+  color: white !important;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.icon-wrapper {
+  margin-bottom: 20px;
+  color: var(--primary-color)
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background-color: #eee;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(90deg, #ef4444, #f59e0b);
+  border-radius: 3px;
+}
