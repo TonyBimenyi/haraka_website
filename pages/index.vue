@@ -10,6 +10,8 @@ greet();
      <HomeGallery />
      <!-- <HomePricing /> -->
     <HomeTestimonials />
+    <!-- <HomePartners /> -->
+     <HomeCTA />
     <HomeContact />
   </div>
 </template>
