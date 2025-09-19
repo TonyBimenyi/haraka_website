@@ -2,7 +2,7 @@
     <div class="slide_container">
         <div class="slide_details">
             <h1 class="slide_title">Welcome to Haraka</h1>
-            <p class="slide_subtitle">Your Gateway to Seamless Communication</p>
+            <h1 class="slide_subtitle">Event Planner</h1>
             <p>Every event could be perfect</p>
             <div class="buttons">
                 <div class="button1">
