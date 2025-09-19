@@ -8,7 +8,7 @@
                 <div class="button1">
                     <button>ABOUT US</button>
                 </div>
-                <div class="button1">
+                <div class="button2">
                     <button>GET STARTED</button>
                 </div>
             </div>

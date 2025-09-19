@@ -8,10 +8,11 @@
 :root {
   /* Colors */
   --primary-color: #F83F00;
-  --secondary-color: #f0b73c;
-  --gradient-color-primary: linear-gradient(90deg, #F83F00 0%, #f0b73c 100%);
+  --secondary-color: #ddb662;
+  --gradient-color-primary: linear-gradient(60deg, #F83F00 0%, #f0b73c 100%);
   --gradient-color-secondary: linear-gradient(90deg, #f0b73c 0%, #F83F00 100%);
   --text-color: #333;
+  --button-padding: 14px 45px;
 
   /* Font sizes */
   --fs-xs: 0.75rem;   /* 12px */
