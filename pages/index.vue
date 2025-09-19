@@ -5,5 +5,6 @@ greet();
 <template>
   <div>
      <HomeSlide />
+     <HomeBooking />
   </div>
 </template>
