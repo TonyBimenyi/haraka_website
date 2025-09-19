@@ -15,10 +15,15 @@
         </div>
         <div class="direction_button">
             <div class="next_btn">
-                <p>Next</p>
+                <p>
+                    <Icon icon="mdi:arrow-left" width="24" height="24" />
+                </p>
+                
             </div>
             <div class="prev_btn">
-                <p>Prev</p>
+                <p>
+                    <Icon icon="mdi:arrow-right" width="24" height="24" />
+                </p>
             </div>
         </div>
     </div>

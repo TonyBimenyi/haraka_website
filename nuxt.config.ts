@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   css:[
     '../assets/css/main.css'
   ],
+  plugins:[
+    '../plugins/iconify.js' // register iconify globally
+  ],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true }
 })
