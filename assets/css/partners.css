@@ -1,0 +1,26 @@
+.partners-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 400px;
+}
+
+.partners-container .feature-item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* add shadow */
+  transition: all 0.3s ease;
+}
+
+.partners-container .feature-item:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
+  transform: translateY(-5px);
+}
+
+.partners-container .features-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px; /* spacing between items */
+  margin-bottom: 20px;
+}
+
