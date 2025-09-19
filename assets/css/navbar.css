@@ -1,0 +1,111 @@
+.navbar {
+  width: 100%;
+  /* background: white; */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center; /* centers the inner container */
+}
+
+.navbar-container {
+  width: 60%;   
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  /* set to 80% */
+  /* max-width: 1200px;        prevent too wide on large screens */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.logo-text {
+  font-size: var(--fs-xl);
+  font-weight: bold;
+  color: #222;
+}
+
+.logo-text small {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: normal;
+  color: #f7a500; /* orange accent */
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f7a500; /* highlight orange */
+}
+
+.nav-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.icon-circle {
+  width: 35px;
+  height: 35px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: var(--fs-base);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon-circle:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;   /* vertical alignment */
+  gap: 6px;              /* space between icon and text */
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+/* Icon alignment fix */
+.nav-links a .iconify {
+  font-size: 1.1rem;         /* match icon size with text */
+  vertical-align: middle;    /* align baseline */
+  position: relative;
+  top: 1px;                  /* fine-tune vertical position */
+}
