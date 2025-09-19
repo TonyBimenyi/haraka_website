@@ -7,5 +7,6 @@ greet();
      <HomeSlide />
      <HomeBooking />
      <HomeAbout />
+     <HomeGallery />
   </div>
 </template>

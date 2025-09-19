@@ -76,5 +76,5 @@
 
 
 <script setup>
-import "@/assets/css/booking.css"
+import "@/assets/css/about.css"
 </script>
