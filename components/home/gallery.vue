@@ -1,10 +1,15 @@
 <template>
   <section class="gallery-container">
-    <!-- Header -->
-    <div class="gallery-header">
-      <h2>
-        Beautiful & <span class="highlight">Unforgettable Times</span>
-      </h2>
+        <!-- Header Section -->
+    <div class="header-section-gallery">
+  <div class="tagline-wrapper">
+    <div class="tagline">WE ARE HARMONI</div>
+  </div>
+  <div class="gallery_title">
+    <div class="title_ga">
+      <h1 class="main-title">Beautiful &  <span>Unforgettable Times</span></h1>
+    </div>
+    <div class="mission_part">
       <nav class="gallery-nav">
         <button class="nav-btn">
           <Icon icon="mdi:star-outline" class="icon" /> All Gallery
@@ -17,6 +22,8 @@
         </button>
       </nav>
     </div>
+  </div>
+</div>
 
     <!-- Grid -->
     <div class="gallery-grid">
