@@ -1,9 +1,19 @@
 .cta-section {
-  background: linear-gradient(90deg, #ff512f, #f09819);
+  background: 
+    url("https://i.pinimg.com/originals/6c/04/42/6c0442cba93295db1e425115ddc0f95e.gif") no-repeat,
+    linear-gradient(160deg, 
+                    rgb(255, 42, 0) 0%,    /* start color at 0% */
+                    rgb(255, 42, 0) 70%,   /* keep same color until 70% */
+                    rgb(255, 149, 0) 100%  /* change to end color at 100% */
+                   );
   text-align: center;
   padding: 4rem 2rem;
   color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
 }
+
 
 .cta-content h2 {
   font-size: 2rem;

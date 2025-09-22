@@ -56,18 +56,17 @@
 .testimonial-dots {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-  width: 100%;
-  gap: 1%;
+  margin-top: 15px; /* space above the dots */
 }
 
 .testimonial-dots .dot {
   width: 10px;
   height: 10px;
-  background: #ddd;
   border-radius: 50%;
-  display: inline-block;
-  transition: background 0.3s;
+  background-color: #ccc;
+  margin: 0 6px; /* space between dots */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .testimonial-dots .dot.active {
