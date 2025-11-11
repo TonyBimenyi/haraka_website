@@ -10,16 +10,28 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
         </p>
         <ul class="footer-contact">
-          <li><i class="fas fa-map-marker-alt"></i> 100 highland ave, California, United States</li>
-          <li><i class="fas fa-envelope"></i> contact@planets.com</li>
-          <li><i class="fas fa-phone"></i> +100 800 1234 5555</li>
-        </ul>
-        <div class="footer-social">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
+            <li>
+                <Icon icon="mdi:map-marker" width="20" height="20" />
+                100 Highland Ave, California, United States
+            </li>
+            <li>
+                <Icon icon="mdi:email" width="20" height="20" />
+                contact@planets.com
+            </li>
+            <li>
+                <Icon icon="mdi:phone" width="20" height="20" />
+                +100 800 1234 5555
+            </li>
+            </ul>
+
+            <div class="footer-social">
+            <h3>Social Networks</h3>
+            <a href="#"><Icon icon="mdi:facebook" width="24" height="24" /></a>
+            <a href="#"><Icon icon="mdi:twitter" width="24" height="24" /></a>
+            <a href="#"><Icon icon="mdi:instagram" width="24" height="24" /></a>
+            <a href="#"><Icon icon="mdi:linkedin" width="24" height="24" /></a>
+            </div>
+
       </div>
 
       <!-- Center Section -->
@@ -38,17 +50,20 @@
       </div>
 
       <!-- Right Section -->
-      <div class="footer-right">
-        <h3>Harmoni Instagram</h3>
-        <div class="footer-instagram">
-          <img src="https://via.placeholder.com/100" alt="Instagram 1" />
-          <img src="https://via.placeholder.com/100" alt="Instagram 2" />
-          <img src="https://via.placeholder.com/100" alt="Instagram 3" />
-          <img src="https://via.placeholder.com/100" alt="Instagram 4" />
-          <img src="https://via.placeholder.com/100" alt="Instagram 5" />
-          <img src="https://via.placeholder.com/100" alt="Instagram 6" />
-        </div>
-      </div>
+<div class="footer-right">
+  <h3>Harmoni Instagram</h3>
+  <div class="footer-instagram">
+    <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=200&q=80" alt="Party 1" />
+    <!-- <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=200&q=80" alt="Party 2" /> -->
+    <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=200&q=80" alt="Party 3" />
+    <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=200&q=80" alt="Party 1" />
+    <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=200&q=80" alt="Party 1" />
+    <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=200&q=80" alt="Party 1" />
+    <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=200&q=80" alt="Party 1" />
+    
+  </div>
+</div>
+
     </div>
 
     <!-- Bottom Bar -->

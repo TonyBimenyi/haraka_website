@@ -13,5 +13,6 @@ greet();
     <!-- <HomePartners /> -->
      <HomeCTA />
     <HomeContact />
+    <HomeFooter />
   </div>
 </template>
