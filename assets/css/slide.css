@@ -10,6 +10,10 @@
   position: relative;
   color: white;
   overflow: hidden;
+  
+}
+body{
+  overflow-x: hidden !important;
 }
 
 /* Overlay */
@@ -250,4 +254,40 @@
   position: relative;
   top: 1px;                     /* fine tune */
   color: white;
+}
+
+/* ✨ Fade + Zoom Background Animation ✨ */
+.slide_container.fade {
+  animation: fadeZoom 1s ease-in-out;
+}
+
+@keyframes fadeZoom {
+  0% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ✨ Slide text fade-in animation ✨ */
+.slide_details h1,
+.slide_details p,
+.buttons {
+  opacity: 0;
+  animation: textFadeUp 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes textFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
