@@ -1,0 +1,171 @@
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 60px 40px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1 1 30%;
+  margin: 15px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer-logo span {
+  color: #f9a825;
+}
+
+.footer-left p {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.footer-contact li {
+  margin-bottom: 8px;
+}
+
+.footer-contact i {
+  margin-right: 10px;
+  color: #f9a825;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #f9a825;
+}
+
+.footer-center h3,
+.footer-right h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li {
+  margin-bottom: 8px;
+}
+
+.footer-center ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-center ul li a:hover {
+  color: #f9a825;
+}
+
+.footer-instagram {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.footer-instagram img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-bottom .brand {
+  color: #f9a825;
+  font-weight: bold;
+}
+
+.footer-bottom i {
+  color: red;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-bottom ul li a {
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-bottom ul li a:hover {
+  color: #f9a825;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.footer-instagram {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+}
+
+.footer-instagram img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  filter: grayscale(100%) brightness(80%); /* Default: muted */
+}
+
+/* On hover: bring back color */
+.footer-instagram img:hover {
+  filter: grayscale(0%) brightness(100%);
+  transform: scale(1.05); /* slight zoom effect */
+}
+
+
+
+.footer-contact li Icon {
+  color: #ff512f; /* highlight icon color */
+}
+
