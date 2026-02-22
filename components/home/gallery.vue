@@ -28,7 +28,7 @@
     <!-- Grid -->
     <div class="gallery-grid">
       <div class="gallery-item large">
-        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Wedding" />
+        <img src="https://i.imgur.com/LkkZUzq.jpeg" alt="Wedding" />
         <div class="overlay">
           <p>John Doe Wedding day</p>
           <span>Wedding Paris, 24 June 2016</span>
